@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CppGLESXamarin.iOS", "CppGLESXamarin.iOS\CppGLESXamarin.iOS.csproj", "{9CF1EF94-E80F-4CC9-AEB3-D89D6EBF921B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CF1EF94-E80F-4CC9-AEB3-D89D6EBF921B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{9CF1EF94-E80F-4CC9-AEB3-D89D6EBF921B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{9CF1EF94-E80F-4CC9-AEB3-D89D6EBF921B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{9CF1EF94-E80F-4CC9-AEB3-D89D6EBF921B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{9CF1EF94-E80F-4CC9-AEB3-D89D6EBF921B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{9CF1EF94-E80F-4CC9-AEB3-D89D6EBF921B}.Release|iPhone.Build.0 = Release|iPhone
+		{9CF1EF94-E80F-4CC9-AEB3-D89D6EBF921B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{9CF1EF94-E80F-4CC9-AEB3-D89D6EBF921B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
