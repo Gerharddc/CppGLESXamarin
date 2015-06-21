@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A36DF8C31B36895F005AED6D /* iOSGLESBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A36DF8C21B36895F005AED6D /* iOSGLESBridge.h */; };
-		A36DF8C51B36895F005AED6D /* iOSGLESBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A36DF8C41B36895F005AED6D /* iOSGLESBridge.m */; };
 		A36DF8CB1B36895F005AED6D /* libiOSGLESBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A36DF8BF1B36895F005AED6D /* libiOSGLESBridge.a */; };
+		A36DF8DC1B368A1E005AED6D /* SimpleRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DF8DA1B368A1E005AED6D /* SimpleRenderer.cpp */; };
+		A36DF8DF1B368D44005AED6D /* iOSGLESBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DF8DD1B368D44005AED6D /* iOSGLESBridge.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				A36DF8C31B36895F005AED6D /* iOSGLESBridge.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +36,12 @@
 
 /* Begin PBXFileReference section */
 		A36DF8BF1B36895F005AED6D /* libiOSGLESBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSGLESBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A36DF8C21B36895F005AED6D /* iOSGLESBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSGLESBridge.h; sourceTree = "<group>"; };
-		A36DF8C41B36895F005AED6D /* iOSGLESBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSGLESBridge.m; sourceTree = "<group>"; };
 		A36DF8CA1B36895F005AED6D /* iOSGLESBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSGLESBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A36DF8D01B36895F005AED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36DF8D91B368A1E005AED6D /* MathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathHelper.h; path = ../../SharedRenderer/MathHelper.h; sourceTree = "<group>"; };
+		A36DF8DA1B368A1E005AED6D /* SimpleRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleRenderer.cpp; path = ../../SharedRenderer/SimpleRenderer.cpp; sourceTree = "<group>"; };
+		A36DF8DB1B368A1E005AED6D /* SimpleRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleRenderer.h; path = ../../SharedRenderer/SimpleRenderer.h; sourceTree = "<group>"; };
+		A36DF8DD1B368D44005AED6D /* iOSGLESBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iOSGLESBridge.cpp; sourceTree = SOURCE_ROOT; };
+		A36DF8DE1B368D44005AED6D /* iOSGLESBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSGLESBridge.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				A36DF8C11B36895F005AED6D /* iOSGLESBridge */,
-				A36DF8CE1B36895F005AED6D /* iOSGLESBridgeTests */,
 				A36DF8C01B36895F005AED6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,26 +83,13 @@
 		A36DF8C11B36895F005AED6D /* iOSGLESBridge */ = {
 			isa = PBXGroup;
 			children = (
-				A36DF8C21B36895F005AED6D /* iOSGLESBridge.h */,
-				A36DF8C41B36895F005AED6D /* iOSGLESBridge.m */,
+				A36DF8D91B368A1E005AED6D /* MathHelper.h */,
+				A36DF8DA1B368A1E005AED6D /* SimpleRenderer.cpp */,
+				A36DF8DB1B368A1E005AED6D /* SimpleRenderer.h */,
+				A36DF8DD1B368D44005AED6D /* iOSGLESBridge.cpp */,
+				A36DF8DE1B368D44005AED6D /* iOSGLESBridge.h */,
 			);
 			path = iOSGLESBridge;
-			sourceTree = "<group>";
-		};
-		A36DF8CE1B36895F005AED6D /* iOSGLESBridgeTests */ = {
-			isa = PBXGroup;
-			children = (
-				A36DF8CF1B36895F005AED6D /* Supporting Files */,
-			);
-			path = iOSGLESBridgeTests;
-			sourceTree = "<group>";
-		};
-		A36DF8CF1B36895F005AED6D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A36DF8D01B36895F005AED6D /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36DF8C51B36895F005AED6D /* iOSGLESBridge.m in Sources */,
+				A36DF8DC1B368A1E005AED6D /* SimpleRenderer.cpp in Sources */,
+				A36DF8DF1B368D44005AED6D /* iOSGLESBridge.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
