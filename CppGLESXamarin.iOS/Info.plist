@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>CppGLESXamarin.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.mycompany.cppglesxamarin.ios</string>
+	<string>com.companyname.cppglesxamarin.ios</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
