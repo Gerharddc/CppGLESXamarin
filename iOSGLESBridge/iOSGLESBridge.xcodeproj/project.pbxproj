@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A36DF8C31B36895F005AED6D /* iOSGLESBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A36DF8C21B36895F005AED6D /* iOSGLESBridge.h */; };
+		A36DF8C51B36895F005AED6D /* iOSGLESBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A36DF8C41B36895F005AED6D /* iOSGLESBridge.m */; };
+		A36DF8CB1B36895F005AED6D /* libiOSGLESBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A36DF8BF1B36895F005AED6D /* libiOSGLESBridge.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A36DF8CC1B36895F005AED6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A36DF8B71B36895F005AED6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A36DF8BE1B36895F005AED6D;
+			remoteInfo = iOSGLESBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A36DF8BD1B36895F005AED6D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A36DF8C31B36895F005AED6D /* iOSGLESBridge.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A36DF8BF1B36895F005AED6D /* libiOSGLESBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSGLESBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36DF8C21B36895F005AED6D /* iOSGLESBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSGLESBridge.h; sourceTree = "<group>"; };
+		A36DF8C41B36895F005AED6D /* iOSGLESBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSGLESBridge.m; sourceTree = "<group>"; };
+		A36DF8CA1B36895F005AED6D /* iOSGLESBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSGLESBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36DF8D01B36895F005AED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A36DF8BC1B36895F005AED6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36DF8C71B36895F005AED6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36DF8CB1B36895F005AED6D /* libiOSGLESBridge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A36DF8B61B36895F005AED6D = {
+			isa = PBXGroup;
+			children = (
+				A36DF8C11B36895F005AED6D /* iOSGLESBridge */,
+				A36DF8CE1B36895F005AED6D /* iOSGLESBridgeTests */,
+				A36DF8C01B36895F005AED6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A36DF8C01B36895F005AED6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A36DF8BF1B36895F005AED6D /* libiOSGLESBridge.a */,
+				A36DF8CA1B36895F005AED6D /* iOSGLESBridgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A36DF8C11B36895F005AED6D /* iOSGLESBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A36DF8C21B36895F005AED6D /* iOSGLESBridge.h */,
+				A36DF8C41B36895F005AED6D /* iOSGLESBridge.m */,
+			);
+			path = iOSGLESBridge;
+			sourceTree = "<group>";
+		};
+		A36DF8CE1B36895F005AED6D /* iOSGLESBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A36DF8CF1B36895F005AED6D /* Supporting Files */,
+			);
+			path = iOSGLESBridgeTests;
+			sourceTree = "<group>";
+		};
+		A36DF8CF1B36895F005AED6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A36DF8D01B36895F005AED6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A36DF8BE1B36895F005AED6D /* iOSGLESBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36DF8D31B36895F005AED6D /* Build configuration list for PBXNativeTarget "iOSGLESBridge" */;
+			buildPhases = (
+				A36DF8BB1B36895F005AED6D /* Sources */,
+				A36DF8BC1B36895F005AED6D /* Frameworks */,
+				A36DF8BD1B36895F005AED6D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSGLESBridge;
+			productName = iOSGLESBridge;
+			productReference = A36DF8BF1B36895F005AED6D /* libiOSGLESBridge.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A36DF8C91B36895F005AED6D /* iOSGLESBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36DF8D61B36895F005AED6D /* Build configuration list for PBXNativeTarget "iOSGLESBridgeTests" */;
+			buildPhases = (
+				A36DF8C61B36895F005AED6D /* Sources */,
+				A36DF8C71B36895F005AED6D /* Frameworks */,
+				A36DF8C81B36895F005AED6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A36DF8CD1B36895F005AED6D /* PBXTargetDependency */,
+			);
+			name = iOSGLESBridgeTests;
+			productName = iOSGLESBridgeTests;
+			productReference = A36DF8CA1B36895F005AED6D /* iOSGLESBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A36DF8B71B36895F005AED6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MyCompany;
+				TargetAttributes = {
+					A36DF8BE1B36895F005AED6D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A36DF8C91B36895F005AED6D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = A36DF8BA1B36895F005AED6D /* Build configuration list for PBXProject "iOSGLESBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A36DF8B61B36895F005AED6D;
+			productRefGroup = A36DF8C01B36895F005AED6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A36DF8BE1B36895F005AED6D /* iOSGLESBridge */,
+				A36DF8C91B36895F005AED6D /* iOSGLESBridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A36DF8C81B36895F005AED6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36DF8BB1B36895F005AED6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36DF8C51B36895F005AED6D /* iOSGLESBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36DF8C61B36895F005AED6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A36DF8CD1B36895F005AED6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A36DF8BE1B36895F005AED6D /* iOSGLESBridge */;
+			targetProxy = A36DF8CC1B36895F005AED6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A36DF8D11B36895F005AED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A36DF8D21B36895F005AED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A36DF8D41B36895F005AED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A36DF8D51B36895F005AED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A36DF8D71B36895F005AED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSGLESBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A36DF8D81B36895F005AED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSGLESBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A36DF8BA1B36895F005AED6D /* Build configuration list for PBXProject "iOSGLESBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36DF8D11B36895F005AED6D /* Debug */,
+				A36DF8D21B36895F005AED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36DF8D31B36895F005AED6D /* Build configuration list for PBXNativeTarget "iOSGLESBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36DF8D41B36895F005AED6D /* Debug */,
+				A36DF8D51B36895F005AED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A36DF8D61B36895F005AED6D /* Build configuration list for PBXNativeTarget "iOSGLESBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36DF8D71B36895F005AED6D /* Debug */,
+				A36DF8D81B36895F005AED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A36DF8B71B36895F005AED6D /* Project object */;
+}
